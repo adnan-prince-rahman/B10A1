@@ -7,6 +7,9 @@ body {
     margin: 0;
     padding: 0;
 }
+a {
+    color: black;
+}
 .common-heading {
     color: rgb(13, 19, 33);
     font-size: 32px;
@@ -227,4 +230,69 @@ iframe {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+/* target container end  */
+/* footer start  */
+.footer-bg {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.footer-bg h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-bg p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-bg input[type="text"] {
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-left: 250px;
+}
+.footer-bg input[type="submit"] {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+::placeholder {
+    padding-left: 20px;
+}
+.footer-last {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-last h5 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+ .img-last {
+    display: flex;
+    gap: 20px
 }
